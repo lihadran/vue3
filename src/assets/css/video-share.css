@@ -1,0 +1,169 @@
+.video {
+  position:fixed;
+  width:100%;height:100%;
+
+  background:#0f0f0f;
+}
+
+.video a {
+  font-size:34rem;
+}
+
+
+/*  */
+.video-container {
+  position:absolute;
+  left:0;top:0;
+  width:100%;height:100%;
+}
+.video-container video {
+  width:100%;height:100%;
+}
+
+
+/*  */
+.top-nav {
+  height:100rem;width:100%;
+  line-height:100rem;
+
+  position:absolute;left:0;top:0;
+
+  display:flex;
+  background-image:linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,.0));
+}
+.top-nav a {opacity:.6;}
+
+
+
+.icon-container {
+  width:100rem;
+  text-align:center;
+  padding-top:20rem;
+}
+.icon-container .icon {
+  display:inline-block;
+  background-repeat:no-repeat;
+  background-size:100%;
+  width:60rem;height:60rem;
+}
+
+.icon-container .icon-live {
+  background-image:url(../img/live.png);
+}
+.icon-container .icon-search {
+  background-image:url(../img/search.png);
+}
+
+
+
+
+
+
+.tab-container {flex:1;text-align:center;}
+.tab-container .tab-item {padding:0 38rem;position:relative;text-shadow:2px 2px 6px #999;}
+.tab-container .tab-item.active {
+  opacity:1;
+}
+.tab-container .tab-item.active::after {
+  content:'';
+  position:absolute;
+  left:50%;bottom:-17rem;
+
+  background:#FFF;
+  width:44rem;margin-left:-22rem;
+  height:4rem;
+  box-shadow:2px 2px 6px #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.share {
+  position:fixed;
+  left:0;bottom:0;
+
+  height:568rem;
+  width:100%;
+  background:rgba(0,0,0,.9);
+  border-radius:15rem 15rem 0 0;
+}
+
+.share .title {
+  text-align:center;
+  margin-top:22rem;
+  font-size:30rem;
+}
+
+.share .row {
+  padding:0 18rem;
+
+  margin-top:35rem;
+  
+  display:flex;
+}
+.share .col {
+  width:140rem;
+}
+.share .col .icon {
+  width:98rem;
+  height:98rem;
+
+  margin:0 auto;
+}
+.share .col .icon img {
+  display:block;
+  width:100%;height:100%;
+}
+.share .col .desc {
+  text-align:center;
+  opacity:.6;
+  margin-top:18rem;
+}
+
+.share .cancel {
+  position:absolute;
+  left:0;bottom:0;
+
+  height:98rem;
+  width:100%;
+}
+.share button {
+  width:100%;height:100%;
+  border:none;
+  background:#323232;
+}

@@ -1,0 +1,59 @@
+#waifu-toggle {
+	background-color: #b594ff !important;
+	border-radius: 5px 5px 0 0 !important;
+	bottom: 0 !important;
+	left: 146px !important;
+	margin-left: 0 !important;
+	padding: 5px 20px !important;
+	transition: margin-bottom 0.2s !important;
+	margin-bottom: -30px !important;
+	writing-mode: initial !important;
+	width: auto !important;
+}
+#waifu-toggle.waifu-toggle-active {
+	margin-bottom: -5px !important;
+	margin-left: 0 !important;
+}
+#waifu-toggle.waifu-toggle-active:hover {
+	margin-bottom: 0 !important;
+}
+#waifu-tips {
+	background-color: #d3c1ff !important;
+	border: 1px solid #d3c1ff !important;
+	left: 15%;
+	color: #666;
+}
+#waifu-tool {
+	top: auto !important;
+	bottom: 10px;
+}
+#waifu-tool .fa-paper-plane {
+	display: none;
+}
+@media (max-width: 767px) {
+	#waifu {
+		right: 0 !important;
+	}
+	#waifu #live2d {
+		width: 100px !important;
+		height: 140px !important;
+		bottom: 188rem;
+		left: 75%;
+		z-index: -999;
+	}
+	#waifu-tool {
+		top: auto !important;
+		left: 0px;
+		bottom: 125rem;
+		display: flex;
+		justify-content: space-evenly;
+		border-radius: 0 10px 0 0;
+		opacity: 1 !important;
+		border: 1px solid white;
+		border-left: none;
+		border-top: none;
+	}
+	#waifu-tool span {
+		color: white !important;
+	}
+}
